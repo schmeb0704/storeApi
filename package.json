@@ -1,0 +1,28 @@
+{
+  "name": "store_api",
+  "version": "1.0.0",
+  "description": "store api from John Smilga's node course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "store",
+    "ecommerce",
+    "nodejs",
+    "express",
+    "backend"
+  ],
+  "author": "schmeb0704",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
